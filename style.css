@@ -4,6 +4,8 @@ body {
     color: #ffffff;
     background-image: url(/img/background.gif);
     background-size: 400px;
+    cursor: url("/select.png"), default;
+    a:hover, button:hover, input:hover {cursor: url("/link-select.png"), default;}
 }
 
 * {
