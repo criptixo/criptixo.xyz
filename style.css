@@ -96,14 +96,12 @@ footer {
     text-align:center;
 }
 
-h1,
-h2,
-h3 {
+h1 {
     color: #ED64F5;
 }
 
-h1 {
-    font-size: 25px;
+h2{
+    color: #ED64F5;
 }
 
 strong {
