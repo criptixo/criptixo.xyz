@@ -47,13 +47,13 @@ weight = 3
   showAllPostsArchive = false
 
   # Home page settings
-  description = "TEST"
+  description = "I’m that kind of person that is very interested in random technology stuff."
   mainSection = "posts" # your main section
-  showAllPostsOnHomePage = false # default
-  postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
+  showAllPostsOnHomePage = false
+  postsOnHomePage = 5 
   tagsOverview = 'false'
-  showProjectsList = true # show projects list by default (if projects data file exists).
-  projectsUrl = "https://github.com/criptixo" # title link for projects list
+  showProjectsList = true
+  projectsUrl = "https://github.com/criptixo"
 
   dateFormat = "2006-01-02"
 
@@ -87,4 +87,4 @@ weight = 3
     link = "https://www.last.fm/user/criptixo"
   [[params.social]]
     name = "email"
-    link = "conatact@criptixo.xyz"
+    link = "contact@criptixo.xyz"
