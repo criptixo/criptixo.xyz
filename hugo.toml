@@ -51,7 +51,7 @@ weight = 3
   mainSection = "posts" # your main section
   showAllPostsOnHomePage = false # default
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
-  tagsOverview = flase
+  tagsOverview = true
   showProjectsList = true # show projects list by default (if projects data file exists).
   projectsUrl = "https://github.com/criptixo" # title link for projects list
 
