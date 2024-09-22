@@ -5,9 +5,7 @@ theme = "cactus"
 copyright = "You" # cactus will use title if copyright is not set
 disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
 
-
-
-# summaryLength = 2
+summaryLength = 2
 
 # Main menu which appears below site header.
 [[menu.main]]
@@ -48,10 +46,10 @@ weight = 4
 
 [params]
 
-  colortheme = "dark" # dark, light, white, or classic
-  rss = true # generate rss feed. default value is false
-  googleAnalyticsAsync = false # use asynchronous tracking. Synchronous tracking by default
-  showAllPostsArchive = false # default
+  colortheme = "dark"
+  rss = true
+  googleAnalyticsAsync = false
+  showAllPostsArchive = false
 
   # Home page settings
   description = "test"
@@ -62,12 +60,11 @@ weight = 4
   showProjectsList = true # show projects list by default (if projects data file exists).
   projectsUrl = "https://github.com/criptixo" # title link for projects list
 
-  # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
-  dateFormat = "2006-01-02" # default
+  dateFormat = "2006-01-02"
 
   # Post page settings
-  show_updated = true # default
-  showReadTime = true # default
+  show_updated = true
+  showReadTime = true
 
   [params.comments]
     enabled = true # default
@@ -89,6 +86,12 @@ weight = 4
   [[params.social]]
     name = "twitter"
     link = "https://www.twitter.com/criptixo"
+   [[params.social]]
+    name = "steam"
+    link = "https://www.steamcommunity/id/criptixo" 
+   [[params.social]]
+    name = "email"
+    link = "conatact@criptixo.xyz"
   [[params.social]]
     name = "email"
     link = "conatact@criptixo.xyz"
