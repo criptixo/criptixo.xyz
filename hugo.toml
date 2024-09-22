@@ -48,19 +48,19 @@ weight = 4
 
 [params]
 
-  colortheme = "white" # dark, light, white, or classic
+  colortheme = "dark" # dark, light, white, or classic
   rss = true # generate rss feed. default value is false
-  googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
+  googleAnalyticsAsync = false # use asynchronous tracking. Synchronous tracking by default
   showAllPostsArchive = false # default
 
   # Home page settings
-  description = "Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Since websites are viewed far more often than they are edited, Hugo is designed to provide an optimal viewing experience for your website’s end users and an ideal writing experience for website authors."
+  description = "test"
   mainSection = "posts" # your main section
   showAllPostsOnHomePage = false # default
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
   tagsOverview = true # show tags overview by default.
   showProjectsList = true # show projects list by default (if projects data file exists).
-  projectsUrl = "https://github.com/gohugoio" # title link for projects list
+  projectsUrl = "https://github.com/criptixo" # title link for projects list
 
   # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
   dateFormat = "2006-01-02" # default
@@ -85,10 +85,10 @@ weight = 4
   # https://fontawesome.com/icons?d=gallery&s=brands
   [[params.social]]
     name = "github"
-    link = "https://github.com/gohugoio"
+    link = "https://github.com/criptixo"
   [[params.social]]
-    name = "linkedin"
-    link = "https://www.linkedin.com/company/github/"
+    name = "twitter"
+    link = "https://www.twitter.com/criptixo"
   [[params.social]]
     name = "email"
-    link = "example@example.com"  # no need for "mailto:" in the head
+    link = "conatact@criptixo.xyz"
