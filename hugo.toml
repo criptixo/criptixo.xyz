@@ -19,14 +19,9 @@ url = "/posts"
 weight = 2
 
 [[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 3
-
-[[menu.main]]
 name = "About"
 url = "/about"
-weight = 4
+weight = 3
 
 [markup]
   [markup.tableOfContents]
@@ -56,7 +51,7 @@ weight = 4
   mainSection = "posts" # your main section
   showAllPostsOnHomePage = false # default
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
-  tagsOverview = true # show tags overview by default.
+  tagsOverview = flase
   showProjectsList = true # show projects list by default (if projects data file exists).
   projectsUrl = "https://github.com/criptixo" # title link for projects list
 
@@ -78,8 +73,6 @@ weight = 4
       #serverUrl = "" # Defaults to https://matrix.cactus.chat:8448 (Cactus Chat public server)
       #serverName = "" # Defaults to cactus.chat
 
-  # the value of name should be an valid font awesome icon name (brands type)
-  # https://fontawesome.com/icons?d=gallery&s=brands
   [[params.social]]
     name = "github"
     link = "https://github.com/criptixo"
