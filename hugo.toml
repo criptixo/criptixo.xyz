@@ -2,18 +2,3 @@ baseURL = 'https://criptixo.xyz/'
 languageCode = 'en-us'
 title = 'My Webpage'
 theme = 'cactus'
-
-[params]
-	colortheme = 'dark'
-
-[[params.social]]
-  name = "github"
-  link = "https://github.com/monkeyWzr"
-
-[[params.social]]
-  name = "email"
-  link = "monkeywzr@gmail.com" # no need for "mailto:" at the start
-
-[[params.social]]
-  name = "linkedin"
-  link = "https://www.linkedin.com/in/monkeywzr/"
