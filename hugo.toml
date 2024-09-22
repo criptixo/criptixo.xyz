@@ -1,7 +1,7 @@
 baseURL = "https://criptixo.xyz"
 languageCode = "en-us"
 title = "criptixo's webpage"
-theme = "cactus"
+theme = "otaku"
 copyright = "criptixo"
 disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
 
@@ -62,16 +62,16 @@ weight = 3
   showReadTime = true
 
   [params.comments]
-    enabled = true # default
-    engine = "cactus_comments" # only disqus, utterances, and cactus_comments is supported
+    enabled = false
+    engine = "cactus_comments"
     [params.comments.utterances]
       repo = "<github_username>/<github_reponame>"
-      label = "hugo-site-name" # you can use however you want to label your name in your repo's issues
+      label = "hugo-site-name"
       theme = "github-light"
     [params.comments.cactuscomments]
-      siteName = "your_cactus_comments_sitename" # see https://cactus.chat/ on how to register your site name
-      #serverUrl = "" # Defaults to https://matrix.cactus.chat:8448 (Cactus Chat public server)
-      #serverName = "" # Defaults to cactus.chat
+      siteName = "your_cactus_comments_sitename" 
+      #serverUrl = "" 
+      #serverName = ""
 
   [[params.social]]
     name = "github"
