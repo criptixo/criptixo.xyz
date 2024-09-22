@@ -1,11 +1,11 @@
 baseURL = "https://criptixo.xyz"
 languageCode = "en-us"
-title = "Cactus theme example"
+title = "criptixo's webpage"
 theme = "cactus"
-copyright = "You" # cactus will use title if copyright is not set
+copyright = "criptixo"
 disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
 
-summaryLength = 2
+summaryLength = 5
 
 # Main menu which appears below site header.
 [[menu.main]]
