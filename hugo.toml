@@ -1,4 +1,7 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://criptixo.xyz/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'My Webpage'
 theme = 'cactus'
+
+[params]
+	colortheme = 'dark'
