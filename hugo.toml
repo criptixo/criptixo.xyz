@@ -47,7 +47,7 @@ weight = 3
   showAllPostsArchive = false
 
   # Home page settings
-  description = "test"
+  description = "TEST"
   mainSection = "posts" # your main section
   showAllPostsOnHomePage = false # default
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
