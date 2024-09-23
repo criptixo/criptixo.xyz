@@ -51,7 +51,7 @@ weight = 3
   showAllPostsOnHomePage = false
   postsOnHomePage = 5 
   tagsOverview = 'false'
-  showProjectsList = true
+  showProjectsList = false
   projectsUrl = "https://github.com/criptixo"
 
   dateFormat = "2006-01-02"
