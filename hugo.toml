@@ -1,7 +1,6 @@
 baseURL = "https://criptixo.xyz"
 languageCode = "en-us"
 title = "criptixo's webpage"
-theme = "otaku"
 copyright = "criptixo"
 disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
 
